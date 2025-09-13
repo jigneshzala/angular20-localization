@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="welcome-title" datatype="html">
+        <source>Welcome to our application!</source>
+        <target>Willkommen in unserer Anwendung!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description" datatype="html">
+        <source> This is a sample application demonstrating Angular internationalization.
+</source>
+        <target>Dies ist eine Beispielanwendung, die die Internationalisierung von Angular
+          demonstriert.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
