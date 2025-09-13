@@ -1,0 +1,41 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/browser",
+  "rewrites": [
+    {
+      "source": "/de",
+      "destination": "/de/index.html"
+    },
+    {
+      "source": "/de/((?!.*\\.).*)",
+      "destination": "/de/index.html"
+    },
+    {
+      "source": "/((?!.*\\.).*)",
+      "destination": "/en-US/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.css",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/css"
+        }
+      ]
+    }
+  ],
+  "trailingSlash": false
+}

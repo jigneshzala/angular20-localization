@@ -17,8 +17,7 @@
         "sourceLocale": "en-US",
         "locales": {
           "de": {
-            "translation": "src/locale/messages.de.xlf",
-            "baseHref": "/de/"
+            "translation": "src/locale/messages.de.xlf"
           }
         }
       },
@@ -26,7 +25,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/angular20-localization",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js", "@angular/localize/init"],
@@ -62,7 +61,8 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "localize": ["en-US"]
             },
             "de": {
               "aot": true,
