@@ -2,19 +2,177 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="welcome-title" datatype="html">
-        <source>Welcome to our application!</source>
+      <trans-unit id="footer.copyright" datatype="html">
+        <source> © 2025 Angular 20 Boilerplate. All rights reserved. </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">1,2</context>
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">5,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="description" datatype="html">
-        <source> This is a sample application demonstrating Angular internationalization.
-</source>
+      <trans-unit id="footer.description" datatype="html">
+        <source> Built with Angular 20, Zoneless Change Detection, i18n, and Tailwind CSS </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">3,4</context>
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.title" datatype="html">
+        <source>Angular 20</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.home" datatype="html">
+        <source> Home </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.services" datatype="html">
+        <source> Services </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">100,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source> Contact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">108,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.title" datatype="html">
+        <source> Contact Us </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.subtitle" datatype="html">
+        <source> Get in touch with us to discuss your project or ask any questions. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.title" datatype="html">
+        <source> Angular 20 Boilerplate </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.subtitle" datatype="html">
+        <source> Modern, Zoneless, Internationalized, and Production-Ready </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.cta1" datatype="html">
+        <source> Explore Services </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.cta2" datatype="html">
+        <source> Get in Touch </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.features.title" datatype="html">
+        <source> Modern Angular Features </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">42,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.features.subtitle" datatype="html">
+        <source> Built with the latest Angular 20 features and best practices for optimal performance and developer experience. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.cta.title" datatype="html">
+        <source> Ready to Build Something Amazing? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.cta.description" datatype="html">
+        <source> Start your next project with this production-ready Angular 20 boilerplate. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">72,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.cta.button" datatype="html">
+        <source> Start Your Project </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">75,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.title" datatype="html">
+        <source> Our Services </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.subtitle" datatype="html">
+        <source> Professional development services using cutting-edge Angular 20 technologies and best practices. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.learn-more" datatype="html">
+        <source> Learn More </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.cta.title" datatype="html">
+        <source> Need a Custom Solution? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
+          <context context-type="linenumber">73,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.cta.description" datatype="html">
+        <source> We create tailored solutions that meet your specific business requirements. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
+          <context context-type="linenumber">76,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.cta.button" datatype="html">
+        <source> Get a Quote </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
+          <context context-type="linenumber">80,83</context>
         </context-group>
       </trans-unit>
     </body>

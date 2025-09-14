@@ -1,0 +1,84 @@
+<div class="bg-white">
+  <!-- Header -->
+  <section class="bg-primary-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1
+        class="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
+        i18n="@@services.title"
+      >
+        Our Services
+      </h1>
+      <p
+        class="text-xl text-gray-600 max-w-3xl mx-auto"
+        i18n="@@services.subtitle"
+      >
+        Professional development services using cutting-edge Angular 20
+        technologies and best practices.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div *ngFor="let service of services()" class="card">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">
+            {{ service.title }}
+          </h3>
+          <p class="text-gray-600 mb-6">{{ service.description }}</p>
+
+          <ul class="space-y-2 mb-6">
+            <li
+              *ngFor="let feature of service.features"
+              class="flex items-center text-sm text-gray-700"
+            >
+              <svg
+                class="w-4 h-4 text-primary-500 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"
+                ></path>
+              </svg>
+              {{ feature }}
+            </li>
+          </ul>
+
+          <div class="border-t pt-4">
+            <p class="text-lg font-semibold text-primary-600 mb-4">
+              {{ service.price }}
+            </p>
+            <button class="w-full btn-primary" i18n="@@services.learn-more">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="bg-primary-50 py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2
+        class="text-3xl font-bold text-gray-900 mb-4"
+        i18n="@@services.cta.title"
+      >
+        Need a Custom Solution?
+      </h2>
+      <p class="text-lg text-gray-600 mb-8" i18n="@@services.cta.description">
+        We create tailored solutions that meet your specific business
+        requirements.
+      </p>
+      <a href="/contact" class="btn-primary" i18n="@@services.cta.button">
+        Get a Quote
+      </a>
+    </div>
+  </section>
+</div>

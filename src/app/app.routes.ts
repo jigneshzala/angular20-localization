@@ -8,6 +8,22 @@ export const routes: Routes = [
     title: 'Home',
   },
   {
+    path: 'services',
+    loadComponent: () =>
+      import('./pages/services/services.component').then(
+        (m) => m.ServicesComponent
+      ),
+    title: 'Services',
+  },
+  {
+    path: 'contact',
+    loadComponent: () =>
+      import('./pages/contact/contact.component').then(
+        (m) => m.ContactComponent
+      ),
+    title: 'Contact',
+  },
+  {
     path: '**',
     redirectTo: '',
   },
