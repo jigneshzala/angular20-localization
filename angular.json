@@ -70,7 +70,7 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
-              "localize": ["en-US"]
+              "localize": ["en"]
             },
             "en": {
               "aot": true,

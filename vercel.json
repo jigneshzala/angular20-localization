@@ -12,8 +12,15 @@
   ],
   "routes": [
     {
-      "src": "/en-US/(.*\\.(js|css|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|map|txt|json)$)",
-      "dest": "/dist/browser/en-US/$1",
+      "src": "/en/(.*\\.(js|css|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|map|txt|json)$)",
+      "dest": "/dist/browser/en/$1",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/de/(.*\\.(js|css|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|map|txt|json)$)",
+      "dest": "/dist/browser/de/$1",
       "headers": {
         "cache-control": "public, max-age=31536000, immutable"
       }
