@@ -38,7 +38,12 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets",
+              "src/robots.txt",
+              "src/sitemap.xml",
+              "src/sitemap-en.xml",
+              "src/sitemap-de.xml"
             ],
             "styles": ["src/styles.scss"],
             "scripts": [],

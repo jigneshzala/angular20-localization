@@ -12,6 +12,38 @@
   ],
   "routes": [
     {
+      "src": "/robots.txt",
+      "dest": "/dist/browser/en/robots.txt",
+      "headers": {
+        "content-type": "text/plain",
+        "cache-control": "public, max-age=86400"
+      }
+    },
+    {
+      "src": "/sitemap.xml",
+      "dest": "/dist/browser/en/sitemap.xml",
+      "headers": {
+        "content-type": "application/xml",
+        "cache-control": "public, max-age=86400"
+      }
+    },
+    {
+      "src": "/sitemap-en.xml",
+      "dest": "/dist/browser/en/sitemap-en.xml",
+      "headers": {
+        "content-type": "application/xml",
+        "cache-control": "public, max-age=86400"
+      }
+    },
+    {
+      "src": "/sitemap-de.xml",
+      "dest": "/dist/browser/en/sitemap-de.xml",
+      "headers": {
+        "content-type": "application/xml",
+        "cache-control": "public, max-age=86400"
+      }
+    },
+    {
       "src": "/en/(.*\\.(js|css|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|map|txt|json)$)",
       "dest": "/dist/browser/en/$1",
       "headers": {

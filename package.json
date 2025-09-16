@@ -7,6 +7,7 @@
     "build": "ng build --configuration=production --localize",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "generate-sitemaps": "node scripts/generate-sitemaps.js",
     "extract-i18n": "ng extract-i18n --output-path src/locale",
     "serve:ssr:angular20-localization": "node dist/server/server.mjs"
   },

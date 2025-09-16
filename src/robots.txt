@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://angular20-localization.vercel.app/sitemap.xml
+Sitemap: https://angular20-localization.vercel.app/sitemap-en.xml
+Sitemap: https://angular20-localization.vercel.app/sitemap-de.xml
+
+# Block access to source maps
+Disallow: /*.map$
