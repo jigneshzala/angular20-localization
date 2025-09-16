@@ -4,6 +4,7 @@
     <body>
       <trans-unit id="footer.copyright" datatype="html">
         <source> © 2025 Angular 20 Boilerplate. All rights reserved. </source>
+        <target>© 2025 Angular 20 Vorlage. Alle Rechte vorbehalten.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
           <context context-type="linenumber">5,7</context>
@@ -79,6 +80,7 @@
       </trans-unit>
       <trans-unit id="home.hero.title" datatype="html">
         <source> Angular 20 Boilerplate </source>
+        <target>Angular 20 Vorlage</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">7,10</context>
@@ -144,6 +146,7 @@
       </trans-unit>
       <trans-unit id="home.cta.button" datatype="html">
         <source> Start Your Project </source>
+        <target>Projekt Starten</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">75,78</context>
@@ -151,6 +154,7 @@
       </trans-unit>
       <trans-unit id="services.title" datatype="html">
         <source> Our Services </source>
+        <target>Unsere Dienstleistungen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
           <context context-type="linenumber">9,11</context>
@@ -159,6 +163,8 @@
       <trans-unit id="services.subtitle" datatype="html">
         <source> Professional development services using cutting-edge Angular 20 technologies and
           best practices. </source>
+        <target>Professionelle Entwicklungsdienstleistungen mit modernsten Angular 20 Technologien
+          und Best Practices.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
           <context context-type="linenumber">15,18</context>
@@ -166,6 +172,7 @@
       </trans-unit>
       <trans-unit id="services.learn-more" datatype="html">
         <source> Learn More </source>
+        <target>Mehr Erfahren</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
           <context context-type="linenumber">58,59</context>
@@ -173,6 +180,7 @@
       </trans-unit>
       <trans-unit id="services.cta.title" datatype="html">
         <source> Need a Custom Solution? </source>
+        <target>Benötigen Sie eine individuelle Lösung?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
           <context context-type="linenumber">73,75</context>
@@ -180,6 +188,8 @@
       </trans-unit>
       <trans-unit id="services.cta.description" datatype="html">
         <source> We create tailored solutions that meet your specific business requirements. </source>
+        <target>Wir entwickeln maßgeschneiderte Lösungen, die Ihre spezifischen
+          Geschäftsanforderungen erfüllen.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
           <context context-type="linenumber">76,79</context>
@@ -187,6 +197,7 @@
       </trans-unit>
       <trans-unit id="services.cta.button" datatype="html">
         <source> Get a Quote </source>
+        <target>Angebot Anfordern</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/services/services.component.html</context>
           <context context-type="linenumber">80,83</context>
